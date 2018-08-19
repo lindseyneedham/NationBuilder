@@ -1,0 +1,30 @@
+<script>
+
+  NB.payments.elementsOptions = {
+    locale: 'fr',
+    fonts: [
+      {
+        cssSrc: "https://fonts.googleapis.com/css?family=Baloo+Bhai"
+    }
+      ]
+  };
+  
+  NB.payments.elementOptions = {
+    style: {
+      base: {
+        color: '#999999',
+        fontFamily: 'Baloo Bhai',
+        '::placeholder': {
+          color: 'gray',
+          fontFamily: 'Baloo Bhai'
+        }
+      },
+      invalid: {
+        fontFamily: 'Baloo Bhai',
+        color: 'red'
+      }
+    }
+  };
+
+  
+</script>
