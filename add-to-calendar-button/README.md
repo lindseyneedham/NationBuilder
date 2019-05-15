@@ -2,7 +2,7 @@ This "Add to Calendar" button is an adaptation of the [OuiCal JS library](https:
 
 ## How to Implement
 1. Download the `ouical.js`, `main.css`, and `_add_to_calendar_button.html` files from this Github repo. Upload those files to your NationBuilder wesbite's [custom theme](https://nationbuilder.com/theme_documentation).
-2. Right before the closing `</head>` tag in `layout.html`, import those files, like so:
+2. Right before the closing `</head>` tag in `layout.html`, import the OuiCal files, like so:
 ```
 <script src="ouical.js"></script>
 <link rel="stylesheet" href="main.css">
