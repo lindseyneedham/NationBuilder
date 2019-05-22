@@ -1,3 +1,16 @@
+/*
+* The following script is a sample implementation of https://nationbuilder.com/how_to_style_payment_fields
+*
+* Please note there are two ever-so-slightly different objects:
+*
+* NB.payments.elementsOptions (plural) allows you to import custom fonts and set a locale
+* https://stripe.com/docs/stripe-js/reference#stripe-elements
+*
+* NB.payments.elementOptions (not plural) allows you to apply custom styles, like font color and size
+* https://stripe.com/docs/stripe-js/reference#element-options
+*
+*/
+
 <script>
 
   NB.payments.elementsOptions = {
