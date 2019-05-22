@@ -81,7 +81,7 @@
           'END:VEVENT',
           'END:VCALENDAR'].join('\n'));
 
-      return '<a class="' + eClass + '" target="_blank" href="' +
+      return '<a class="' + eClass + '" download href="' +
         href + '">' + calendarName + ' Calendar</a>';
     },
 
