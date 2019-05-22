@@ -1,0 +1,14 @@
+<div class="add-to-cal"></div> 
+<script>
+  var myCalendar = createCalendar({
+    data: {
+      title: '{{ page.headline }}',     // Event title
+      start: new Date('{{ page.event.local_start_at | date: '%d %B %Y %H:%M %Z' }}'),   // Event start date
+      duration: {{ page.event.duration_in_seconds | divided_by:60 }},    // Event duration (IN MINUTES)
+      end: new Date('{{ page.event.local_end_at | date: '%d %B %Y %H:%M %Z' }}'),     // Event end date
+      address: '{{ page.event.venue_name }} {{ page.event.venue_address.one_line }}',   // Event Address
+      description: '{{ page.excerpt }}'   //Page excerpt set under page's Settings > Social media
+    }
+  });
+  document.querySelector('.add-to-cal').appendChild(myCalendar);
+</script>
